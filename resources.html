@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SHPE @ UCR | Resources</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The UCR chapter website for theSociety of Hispanic Professional Engineers.">
+    <meta name="author" content="Sergio Morales, Marco Tobon, and Ivan Lopez">
+
+	
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    
+    <!-- main SHPE CSS -->
+    <link href="css/shpe_bootstrap.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    
+    <!-- PDF Viewer script -->
+    <style type="text/css">
+        <!--
+
+        #constitution {
+            width: 800px;
+            height: 640px;
+            margin: 2em auto;
+            border: 10px solid rgb(0,51,102);
+        }
+
+        #constitution p {
+           padding: 1em;
+        }
+
+        #constitution object {
+           display: block;
+           border: solid 1px #666;
+        }
+
+        -->
+    </style>
+    <script type="text/javascript" src="js/pdfobject.js"></script>
+    <script type="text/javascript">
+        window.onload = function (){
+            var success = new PDFObject({ url: "/docs/SHPE_Constitution.pdf" }).embed("constitution");
+        };
+    </script>
+</head><!--/head-->
+
+<body>
+    <header id="header">
+        <div class="top-bar top-bar-shpe">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-4">
+                        <ul class="social-share">
+                            <li style="color:white;">Society of Hispanic Professional Engineers</li>
+                        </ul>   
+                        <div class="top-number"><p><i class="shpe_fa shpe_fa-phone-square"></i></p></div>
+                    </div>
+                    <div class="col-sm-6 col-xs-8">
+                       <div class="social">
+                            <ul class="social-share">
+
+                                <li><a href="https://www.facebook.com/shpe.ucr"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/ucr_shpe"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/pub/shpe-at-ucr/75/51a/990"><i class="fa fa-linkedin"></i></a></li> 
+                                <li><a href="http://www.oninstagram.com/profile/shpe_ucr"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                           
+                            <!-- ######### TODO: Add search functionality ########### -->
+                            <!-- search 
+                            <div class="search">
+                                <form role="form">
+                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                    <i class="fa fa-search"></i>
+                                </form>
+                           </div> -->
+                       </div>
+                    </div>
+                </div>
+            </div><!--/.container-->
+        </div><!--/.top-bar-->
+
+        <nav class="navbar navbar-inverse navbar-shpe" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="./images/logo.jpg" width="40px" height="40px" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav navbar-nav-shpe">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="our_mission.html">Our Mission</a></li>
+                        <li><a href="calendar.html">Calendar</a></li>
+                        <li class="active"><a href="resources.html">Resources</a></li>
+                        <li><a href="members.html">Members</a></li> 
+                        <li><a href="contact_us.html">Contact Us</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
+    
+    
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2>Resources</h2>
+            <p class="lead">Helpful Links to Meeting Slides and Other Useful Information</p>	
+            <div class="row">
+                <h3>Chapter History and Bylaws</h3><br>
+                <p class="lead"> View the missions and ideas that constitue our organization </p>
+                <div id="constitution"> Looks like you don't have Adobe Reader or other PDF plugins supported. You can view the SHPE Constitution <a href="docs/SHPE_Constitution.pdf">here</a> instead.</div>
+            </div> 
+            <div class="row">
+                <h3>General Meetings</h3>
+                <p class="lead"> Slides </p>
+                N/A
+            </div>
+        </div>
+    </div>
+
+			
+
+				
+    <!--
+         ######################################################################
+         #####################   Common Footer       ##########################
+         ###################################################################### 
+    -->
+    <footer id="footer" class="midnight-blue-shpe">
+        <div class="container container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="row">
+                <div class="col-sm-8">
+                    &copy; 2015 Society of Hispanic Professional Engineers, at University of California, Riverside. 
+                    <br>
+                    <a href="http://www.ucr.edu/" ><img src="images/72867278.little_ucr.jpg"/></a>
+				</div>
+                <div class="col-sm-4">
+                    <a href="http://www.engr.ucr.edu/" style="color:rgb(5,5,20);">Bourns College of Engineering</a><br>
+                    <a href="http://shpe.org/" style="color:rgb(5,5,20);">SHPE National</a><br>
+                    Contact us at shpe@engr.ucr.edu
+                </div>
+            </div>
+            <div class="row">
+                <div class="pull-left">
+
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+        
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="scripts/vendor/2f9e67a5.jquery.min.js"><\/script>')</script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        var _gaq=[['_setAccount','UA-39500870-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+                       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+    <!-- / common footer -->
+
+
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript">
+        $('.carousel').carousel()
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script> 
+</body>
+</html>

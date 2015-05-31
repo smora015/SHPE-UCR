@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Society of Hispanic Professional Engineers @ UCR</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Society of Hispanic Professional Engineers @ UCR</title>
+    <meta name="description" content="The UCR chapter website for theSociety of Hispanic Professional Engineers.">
+    <meta name="author" content="Sergio Morales, Marco Tobon, and Ivan Lopez">
 	
 	<!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,10 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->       
     
-    <!-- main JS -->
+    <!-- main SHPE CSS -->
+    <link href="css/shpe_bootstrap.css" rel="stylesheet">
+    
+    <!-- main SHPE JS -->
     <script src="js/main.js"></script>
     
     <link rel="shortcut icon" href="images/ico/favicon.ico">
@@ -28,24 +31,28 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
 </head><!--/head-->
 
-<body class="homepage" onLoad="switchImage('slideImg')">
+<body class="homepage">
     <header id="header">
-        <div class="top-bar">
+        <div class="top-bar top-bar-shpe">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-xs-4">
+                        <ul class="social-share">
+                            <li style="color:white;">Society of Hispanic Professional Engineers</li>
+                        </ul>   
                         <div class="top-number"><p><i class="shpe_fa shpe_fa-phone-square"></i></p></div>
                     </div>
                     <div class="col-sm-6 col-xs-8">
                        <div class="social">
                             <ul class="social-share">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+
+                                <li><a href="https://www.facebook.com/shpe.ucr"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/ucr_shpe"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/pub/shpe-at-ucr/75/51a/990"><i class="fa fa-linkedin"></i></a></li> 
+                                <li><a href="http://www.oninstagram.com/profile/shpe_ucr"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                            
+                            <!-- ######### TODO: Add search functionality ########### -->
                             <!-- search 
                             <div class="search">
                                 <form role="form">
@@ -59,7 +66,7 @@
             </div><!--/.container-->
         </div><!--/.top-bar-->
 
-        <nav class="navbar navbar-inverse" role="banner">
+        <nav class="navbar navbar-inverse navbar-shpe" role="banner">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -72,13 +79,13 @@
                 </div>
 				
                 <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav navbar-nav-shpe">
                         <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>                        
-                        <li><a href="blog.html">Blog</a></li> 
-                        <li><a href="contact-us.html">Contact</a></li>                        
+                        <li><a href="our_mission.html">Our Mission</a></li>
+                        <li><a href="calendar.html">Calendar</a></li>
+                        <li><a href="resources.html">Resources</a></li>                        
+                        <li><a href="members.html">Members</a></li> 
+                        <li><a href="contact_us.html">Contact Us</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -113,14 +120,14 @@
                         ###
                 -->
                 <!-- images/slider/bg1.jpg -->
-                <div class="item active" style="background-image: url(./images/shpe/SAM_2042.jpg)">
+                <div class="item active" style="background-image: url(./images/slider/bg1.JPG)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
-                                <div class="carousel-content">
+                                <div class="carousel-content carousel-content-shpe">
                                     <h1 class="animation animated-item-1">Society of Hispanic Professional Engineers @ University of California, Riverside
                                     <h2 class="animation animated-item-2">Brought together by heritage, social responsibility and desire to improve the equality of all people through the use of science and technology</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <a class="btn-slide animation animated-item-3" href="/resources.html">Read More</a>
                                 </div>
                             </div>
 
@@ -134,20 +141,21 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/shpe/SAM2042.jpg)">
+                <div class="item" style="background-image: url(images/slider/bg2.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
+                                    <!--
                                     <h1 class="animation animated-item-1">Carousel Slide #2</h1>
                                     <h2 class="animation animated-item-2">Carousel Slide #2 Description</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Button</a>
+                                    <a class="btn-slide animation animated-item-3" href="#">Button</a> -->
                                 </div>
                             </div>
 
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="images/slider/img2.png" class="img-responsive">
+                                    <!--<img src="images/slider/img3.png" class="img-responsive">-->
                                 </div>
                             </div>
 
@@ -160,14 +168,16 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
+                                    <!--
                                     <h1 class="animation animated-item-1">Carousel Slide #3</h1>
                                     <h2 class="animation animated-item-2">Carousel Slide #3 Description</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Button</a>
+                                    <a class="btn-slide animation animated-item-3" href="#">Button</a>-->
                                 </div>
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
-                                    <img src="images/slider/img3.png" class="img-responsive">
+                                    
+                                    <!--<img src="images/slider/img3.png" class="img-responsive">-->
                                 </div>
                             </div>
                         </div>
@@ -182,103 +192,14 @@
             <i class="fa fa-chevron-right"></i>
         </a>
     </section><!--/#main-slider-->
-    
-    <!--
-          ######################################################################
-          #####################       Switching Tabs      ######################
-          ###################################################################### 
-    -->
-    <section id="middle">
-        <div class="container">
-                <div class="//col-sm-6 wow fadeInDown">
-                    <div class="accordion">
-                        <h2>Who are we?</h2>
-                        <div class="panel-group" id="accordion1">
-                          <div class="panel panel-default">
-                            <div class="panel-heading active">
-                              <h3 class="panel-title">
-                                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1"> Shpe values...
-                                  <i class="fa fa-angle-right pull-right"></i>
-                                </a>
-                              </h3>
-                            </div>
 
-                            <div id="collapseOne1" class="panel-collapse collapse in">
-                              <div class="panel-body">
-                                  <div class="media accordion-inner">
-                                        <div class="pull-left">
-                                            <img class="img-responsive" src="images/accordion1.png">
-                                        </div>
-                                        <div class="media-body">
-                                             <h4>Collapsable #1</h4>
-                                             <p>Collapsable #1 Description</p>
-                                        </div>
-                                  </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="panel panel-default">
-                            <div class="panel-heading">
-                              <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
-                                  Collapsable #2
-                                  <i class="fa fa-angle-right pull-right"></i>
-                                </a>
-                              </h3>
-                            </div>
-                            <div id="collapseTwo1" class="panel-collapse collapse">
-                              <div class="panel-body">
-                                Collapsable #2 Description
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="panel panel-default">
-                            <div class="panel-heading">
-                              <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
-                                  Collapsable #3
-                                  <i class="fa fa-angle-right pull-right"></i>
-                                </a>
-                              </h3>
-                            </div>
-                            <div id="collapseThree1" class="panel-collapse collapse">
-                              <div class="panel-body">
-                                Collapsable #3 Description
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="panel panel-default">
-                            <div class="panel-heading">
-                              <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
-                                  Collapsable #4
-                                  <i class="fa fa-angle-right pull-right"></i>
-                                </a>
-                              </h3>
-                            </div>
-                            <div id="collapseFour1" class="panel-collapse collapse">
-                              <div class="panel-body">
-                                  Collapsable #4 Description
-                              </div>
-                            </div>
-                          </div>
-                        </div><!--/#accordion1-->
-                    </div>
-                </div>
-        </div><!--/.container-->
-    </section><!--/#middle-->
-
-    
     
     <section id="content">
         <div class="container">
             <div class="row">
                 <!--
                      ######################################################################
-                     #####################       Switching Tabs      ######################
+                     #####################       Switching Tabs 2      ######################
                      ###################################################################### 
                 -->
                 <div class="col-xs-12 col-sm-8 wow fadeInDown">
@@ -286,44 +207,45 @@
                         <div class="media">
                             <div class="parrent pull-left">
                                 <ul class="nav nav-tabs nav-stacked">
-                                    <li class=""><a href="#tab1" data-toggle="tab" class="analistic-01">Responsive Web Design</a></li>
-                                    <li class="active"><a href="#tab2" data-toggle="tab" class="analistic-02">Premium Plugin Included</a></li>
-                                    <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Predefine Layout</a></li>
+                                    <li class=""><a href="#tab1" data-toggle="tab" class="analistic-01">Our Values</a></li>
+                                    <li class="active"><a href="#tab2" data-toggle="tab" class="analistic-02">Our Function</a></li>
+                                    <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Our Fulfillments</a></li>
 
                                 </ul>
                             </div>
-
+                            
                             <div class="parrent media-body">
                                 <div class="tab-content">
                                     <div class="tab-pane fade" id="tab1">
                                         <div class="media">
-                                           <div class="pull-left">
-                                                <img class="img-responsive" src="images/tab2.png">
-                                            </div>
                                             <div class="media-body">
-                                                 <h2>Adipisicing elit</h2>
-                                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.</p>
+                                                 <h2>Excellence in...</h2>
+                                                 <p>We value excellence in education, professional pursuits and leadership. We obtain excellence through integrity, empowerment, achievement, diversity and continuous improvement. </p>
                                             </div>
                                         </div>
                                     </div>
 
                                      <div class="tab-pane fade active in" id="tab2">
                                         <div class="media">
-                                           <div class="pull-left">
-                                                <img class="img-responsive" src="images/tab1.png">
-                                            </div>
+
                                             <div class="media-body">
-                                                 <h2>Adipisicing elit</h2>
-                                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.
+                                                 <h2>We serve to...</h2>
+                                                 <p>SHPE serves to lead as a social-technical organization whose primary function is to enhance and achieve the potential of Hispanics in engineering, math and science. 
                                                  </p>
                                             </div>
                                         </div>
                                      </div>
 
                                      <div class="tab-pane fade" id="tab3">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                                         <div class="media">
+ 
+                                             <div class="media-body">
+                                                 <h2>We strive to...</h2>
+                                                 <p>We strive to fulfill our mission by increasing educational opportunities, promoting professional and personal growth, carry out our social responsibility to be involved in education, business and government issues and enhancing pride within our organization and reinforcing our reputation as a vital Hispanic organization.</p>
+                                            </div>
+                                         </div>
                                      </div>
-                                     
+                                    
                                 </div> <!--/.tab-content-->  
                             </div> <!--/.media-body--> 
                         </div> <!--/.media-->     
@@ -343,11 +265,11 @@
                         <h2>Testimonials</h2>
                          <div class="media testimonial-inner">
                             <div class="pull-left">
-                                <img class="img-responsive img-circle" src="images/testimonials1.png">
+                                <img class="img-responsive img-circle" width="100px" height="100px" src="images/testimonials/testimonials1.jpg">
                             </div>
                             <div class="media-body">
                                 <p>SHPE at UCR has given me the resources and opportunities necessary to be able to not only excel at UCR, but to become readily prepared for when I entered the industry.</p>
-                                <span><strong>-Scotty Bear/</strong> Alumni, Class of 2015</span>
+                                <span><strong>-<a href="http://www.sergiomorales.me/">Sergio Morales</a>/</strong> Alumni, Class of 2015</span>
                             </div>
                          </div>
 
@@ -365,22 +287,39 @@
          #####################   Common Footer       ##########################
          ###################################################################### 
     -->
-    <footer id="footer" class="midnight-blue">
-        <div class="container">
+    <footer id="footer" class="midnight-blue-shpe">
+        <div class="container container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="row">
-                <div class="//col-sm-6">
-                    &copy; 2015 Society of Hispanic Professional Engineers, at University of California, Riverside.     
-                    <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
+                <div class="col-sm-8">
+                    &copy; 2015 Society of Hispanic Professional Engineers, at University of California, Riverside. 
+                    <br>
+                    <a href="http://www.ucr.edu/" ><img src="images/72867278.little_ucr.jpg"/></a>
+				</div>
+                <div class="col-sm-4">
+                    <a href="http://www.engr.ucr.edu/" style="color:blue">Bourns College of Engineering</a><br>
+                    <a href="http://shpe.org/" style="color:blue">SHPE National</a><br>
+                    Contact us at shpe@engr.ucr.edu
+                </div>
+            </div>
+            <div class="row">
+                <div class="pull-left">
+
                 </div>
             </div>
         </div>
     </footer><!--/#footer-->
-
+        
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="scripts/vendor/2f9e67a5.jquery.min.js"><\/script>')</script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        var _gaq=[['_setAccount','UA-39500870-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+                       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+    <!-- / common footer -->
+        
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
