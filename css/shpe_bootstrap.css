@@ -1,63 +1,10 @@
 .top-bar-shpe {
-    padding: 10px 0;
-    background: rgb(0, 51, 102);
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
     background-color: rgb(0, 51, 102);
-    border-bottom: 1px solid #222;
-    line-height: 28px;   
+
 }
 
 .navbar-shpe {
-    background-attachment: scroll;
-    background-clip: border-box;
     background-color: rgb(225, 225, 225);
-    background-image: none;
-    background-origin: padding-box;
-    background-size: auto;
-    border-bottom-color: rgb(78, 78, 78);
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-style: none;
-    border-bottom-width: 0px;
-    border-image-outset: 0px;
-    border-image-repeat: stretch;
-    border-image-slice: 100%;
-    border-image-source: none;
-    border-image-width: 1;
-    border-left-color: rgb(78, 78, 78);
-    border-left-style: none;
-    border-left-width: 0px;
-    border-right-color: rgb(78, 78, 78);
-    border-right-style: none;
-    border-right-width: 0px;
-    border-top-color: rgb(78, 78, 78);
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-top-style: none;
-    border-top-width: 0px;
-    box-sizing: border-box;
-    color: rgb(78, 78, 78);
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    height: 89px;
-    line-height: 22px;
-    margin-bottom: 0px;
-    min-height: 50px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 15px;
-    position: relative;
-    width: 1349px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
